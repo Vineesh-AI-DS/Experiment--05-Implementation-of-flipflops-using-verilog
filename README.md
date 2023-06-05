@@ -136,15 +136,13 @@ endmodule
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
-
-
-
-
-
+![oo1](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/edb47826-d057-4e9d-8a2e-36997a08f2dd)
 
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+![oo2](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/89e2b55e-6f96-4ce5-8267-47360e6d3830)
+
 
 ### PROGRAM 2(D FLIP FLOP)
 ```
@@ -162,8 +160,11 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
+![oo3](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/0f2c22dd-6407-4f85-8e3b-bd239a092827)
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
+### TIMING DIGRAMS FOR FLIP FLOPS
+![oo4](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/9968c6a2-8bbf-4642-92a9-e09ac98dad50)
+
 
 ### PROGRAM 3(SR FLIP FLOP)
 ```
@@ -181,8 +182,10 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
+![oo5](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/ef9a6c60-9c47-48ff-8bb6-81184dc60c76)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+![oo6](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/29a5a8b8-bdfe-4fe1-a19b-ff4a95ef40d1)
 
 ### PROGRAM 4(JK FLIP FLOP)
 ```
@@ -202,9 +205,10 @@ endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
 
+![oo7](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/94d16dd2-6e3d-4295-93be-a882a0e338ae)
+
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
+![oo8](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/510fb106-0a21-4f55-b3f6-a276225cdbc7)
 
 
 ### RESULTS 
