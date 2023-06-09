@@ -111,23 +111,21 @@ Q(t+1)=T′Q(t)+TQ(t)′
 4.End the program.
 
 
-### PROGRAM 1(T FLIP FLOP)
+### SR FLIPFLOP
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 ```
 Developed by: Vineesh.M
 RegisterNumber:  212221230122
 ```
 ```
-module flipflops(T,clk,Q,Qbar);
-input T,clk;
-output reg Q;
-output reg Qbar;
-initial Q=0;
-initial Qbar=1;
+module srflipflop(s,r,clk,q,qbar);
+input s,r,clk;
+output q,qbar;
+reg q,qbar;
 always @(posedge clk)
-begin
-Q=(T&(~Q))|((~T)&Q);
-Qbar=((~T)&Qbar)|(T&(~Qbar));
+begin 
+q<=s|(~r&q);
+qbar<=r|(~s&~q);
 end
 endmodule
 
@@ -144,18 +142,16 @@ endmodule
 ![oo2](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/89e2b55e-6f96-4ce5-8267-47360e6d3830)
 
 
-### PROGRAM 2(D FLIP FLOP)
+### JK FLIPFLOP
 ```
-module flipflops(D,clk,Q,Qbar);
-input D,clk;
-output reg Q;
-output reg Qbar;
-initial Q=0;
-initial Qbar=1;
+module jkflipflop(j,k,clk,q,qbar);
+input j,k,clk;
+output q,qbar;
+reg q,qbar;
 always @(posedge clk)
-begin
-Q=D;
-Qbar=~D;
+begin 
+q<=(j&~q)|(~k&q);
+qbar<=~q;
 end
 endmodule
 ```
@@ -166,18 +162,16 @@ endmodule
 ![oo4](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/9968c6a2-8bbf-4642-92a9-e09ac98dad50)
 
 
-### PROGRAM 3(SR FLIP FLOP)
+### T FLIP FLOPS
 ```
-module flipflops(S,R,clk,Q,Qbar);
-input S,R,clk;
-output reg Q;
-output reg Qbar;
-initial Q=0;
-initial Qbar=1;
+module tflipflop(t,clk,q,qbar);
+input t,clk;
+output q,qbar;
+reg q,qbar;
 always @(posedge clk)
-begin
-Q=S|((~R)&Q);
-Qbar=R|((~S)&(Qbar));
+begin 
+q<=(t&~q)|(~t&q);
+qbar<=~q;
 end
 endmodule
 ```
@@ -187,18 +181,16 @@ endmodule
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 ![oo6](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/29a5a8b8-bdfe-4fe1-a19b-ff4a95ef40d1)
 
-### PROGRAM 4(JK FLIP FLOP)
+### D FLIP FLOPS
 ```
-module flipflops(J,K,clk,Q,Qbar);
-input J,K,clk;
-output reg Q;
-output reg Qbar;
-initial Q=0;
-initial Qbar=1;
+module dflipflop(d,clk,q,qbar);
+input d,clk;
+output q,qbar;
+reg q,qbar;
 always @(posedge clk)
-begin
-Q=(J&(~Q))|((~K)&Q);
-Qbar=((~J)&(Qbar))|K&(~Qbar);
+begin 
+q<=d;
+qbar<=~q;
 end
 endmodule
 
