@@ -134,12 +134,14 @@ endmodule
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
-![oo1](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/edb47826-d057-4e9d-8a2e-36997a08f2dd)
+![image](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/b554cfdf-7cc7-4acc-ad5c-7ad126480ecc)
+
 
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-![oo2](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/89e2b55e-6f96-4ce5-8267-47360e6d3830)
+![image](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/9c7d8b6c-e98c-4591-9f37-b92156a4e2ce)
+
 
 
 ### JK FLIPFLOP
@@ -156,10 +158,11 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
-![oo3](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/0f2c22dd-6407-4f85-8e3b-bd239a092827)
+![image](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/e60469a1-57e1-46e7-adcf-954546a2d877)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS
-![oo4](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/9968c6a2-8bbf-4642-92a9-e09ac98dad50)
+![image](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/2c6b3152-ed22-41e9-b59c-bb07c42b0210)
+
 
 
 ### T FLIP FLOPS
@@ -176,10 +179,12 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
-![oo5](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/ef9a6c60-9c47-48ff-8bb6-81184dc60c76)
+![image](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/1a11cbc3-eb1b-48ae-857d-e38bf1e346d6)
+
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-![oo6](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/29a5a8b8-bdfe-4fe1-a19b-ff4a95ef40d1)
+![image](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/e8dac1c0-a9c2-4b95-a385-35d237f021f4)
+
 
 ### D FLIP FLOPS
 ```
@@ -197,11 +202,11 @@ endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
 
-![oo7](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/94d16dd2-6e3d-4295-93be-a882a0e338ae)
+![image](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/f8b16fe0-04c0-4580-8552-f81a060dedfc)
+
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-![oo8](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/510fb106-0a21-4f55-b3f6-a276225cdbc7)
-
+![image](https://github.com/Vineesh-AI-DS/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427254/ca323723-89b7-4d1f-9058-37c59c49092f)
 
 ### RESULTS 
 Thus implementation of SR,JK,D and T flipflops using nand gates are done sucessfully.
